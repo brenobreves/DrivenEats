@@ -132,13 +132,16 @@ img{
 }
 .selecionado{
     border: 6px rgb(0, 255, 55) solid;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 13px;
+    padding-bottom: 2px;
 
 }
 ion-icon{
     color:rgb(0, 255, 55);
     padding-top: 5px;
+    display: none;
 }
 .bitem{
     display: flex;
@@ -159,4 +162,7 @@ ion-icon{
     text-align: center;
     letter-spacing: 0.018em;
     color: #FFFFFF;
+}
+.selecionado ion-icon{
+    display: block;
 }

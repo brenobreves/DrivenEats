@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
     <title>DrivenEats</title>
 </head>
 <body>
@@ -22,7 +24,7 @@
         <div class="cbox food">
             <div class="chl">Primeiro, seu prato</div>
             <div class="itembox">
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'food')">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png" />
                     <div class="nome">Frango Yin Yang</div>
                     <div class="ndesc">Um pouco de batata, um pouco de salada</div>
@@ -31,10 +33,10 @@
                             <div class="moeda">R$</div>
                             <div class="num">15,90</div>
                         </div>
-                        <ion-icon class="hide" name="checkmark-circle"></ion-icon>
+                        <ion-icon name="checkmark-circle"></ion-icon>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'food')">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png" />
                     <div class="nome">Frango Yin Yang</div>
                     <div class="ndesc">Um pouco de batata, um pouco de salada</div>
@@ -46,7 +48,7 @@
                         <ion-icon class="hide" name="checkmark-circle"></ion-icon>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'food')">
                     <img src="./projeto__driven-eats__imagens/frango_yin_yang.png" />
                     <div class="nome">Frango Yin Yang</div>
                     <div class="ndesc">Um pouco de batata, um pouco de salada</div>
@@ -63,7 +65,7 @@
         <div class="cbox drink">
             <div class="chl">Agora, sua bebida</div>
             <div class="itembox">
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'drink')">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png" />
                     <div class="nome">Coquinha gelada</div>
                     <div class="ndesc">Lata 350ml</div>
@@ -75,7 +77,7 @@
                         <ion-icon class="hide" name="checkmark-circle"></ion-icon>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'drink')">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png" />
                     <div class="nome">Coquinha gelada</div>
                     <div class="ndesc">Lata 350ml</div>
@@ -86,7 +88,7 @@
                         </div>
                         <ion-icon class="hide" name="checkmark-circle"></ion-icon>
                     </div>
-                </div><div class="item">
+                </div><div class="item" onclick="selecionar(this,'drink')">
                     <img src="./projeto__driven-eats__imagens/coca-cola.png" />
                     <div class="nome">Coquinha gelada</div>
                     <div class="ndesc">Lata 350ml</div>
@@ -103,7 +105,7 @@
         <div class="cbox dzrt">
             <div class="chl">Por fim, sua sobremesa</div>
             <div class="itembox">
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'dzrt')">
                     <img src="./projeto__driven-eats__imagens/pudim.png" />
                     <div class="nome">Pudim</div>
                     <div class="ndesc">Apenas pudim</div>
@@ -115,7 +117,7 @@
                         <ion-icon class="hide" name="checkmark-circle"></ion-icon>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'dzrt')">
                     <img src="./projeto__driven-eats__imagens/pudim.png" />
                     <div class="nome">Pudim</div>
                     <div class="ndesc">Apenas pudim</div>
@@ -127,7 +129,7 @@
                         <ion-icon class="hide" name="checkmark-circle"></ion-icon>
                     </div>
                 </div>
-                <div class="item">
+                <div class="item" onclick="selecionar(this,'dzrt')">
                     <img src="./projeto__driven-eats__imagens/pudim.png" />
                     <div class="nome">Pudim</div>
                     <div class="ndesc">Apenas pudim</div>
@@ -148,6 +150,6 @@
             para fechar o pedido</button>
         <button class="fech hide">Fechar pedido</button>    
     </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
