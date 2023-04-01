@@ -78,6 +78,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     padding-left: 15px;
+    padding-right: 15px;
     padding-top: 19px;
     padding-bottom: 10px;
 }
@@ -124,9 +125,38 @@ img{
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.018em;
-
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 .hide{
     display: none;
+}
+.selecionado{
+    border: 6px rgb(0, 255, 55) solid;
+    padding-left: 8px;
+    padding-right: 8px;
+
+}
+ion-icon{
+    color:rgb(0, 255, 55);
+    padding-top: 5px;
+}
+.bitem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.fech{
+    width: 364px;
+    height: 61px;
+    background: #32B72F;
+    border-radius: 50px;
+    border-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
 }
