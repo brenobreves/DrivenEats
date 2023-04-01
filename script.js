@@ -27,5 +27,14 @@ function selecionar(p,tipo){
         p.classList.add("selecionado");
         sbmesa = p;
     }
-    
+    if(comida !== null && bebida !== null && sbmesa !== null){
+        const btn = document.getElementById('BButton');
+        btn.disabled = false;
+        btn.innerHTML = "Fechar pedido";
+        btn.classList.add("ligado");
+    }
+}    
+
+function test(){
+        alert('Teste bem sucedido');
 }

@@ -4,8 +4,8 @@
 }
 body{
     background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
 }
-
 .header{
     background-color: #CF2B2B;
     width: 100%;
@@ -28,7 +28,9 @@ body{
     color: #FFFFFF;
     font-size: 18px;
     line-height: 21px;
-    padding-top: 5px;
+    padding-top: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
 .bottom{
     width: 100%;
@@ -127,9 +129,6 @@ img{
     letter-spacing: 0.018em;
     color: #FFFFFF;
 }
-.hide{
-    display: none;
-}
 .selecionado{
     border: 6px rgb(0, 255, 55) solid;
     padding-left: 9px;
@@ -140,7 +139,6 @@ img{
 }
 ion-icon{
     color:rgb(0, 255, 55);
-    padding-top: 5px;
     display: none;
 }
 .bitem{
@@ -148,21 +146,9 @@ ion-icon{
     justify-content: space-between;
     width: 100%;
 }
-.fech{
-    width: 364px;
-    height: 61px;
-    background: #32B72F;
-    border-radius: 50px;
-    border-style: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.018em;
-    color: #FFFFFF;
-}
 .selecionado ion-icon{
     display: block;
+}
+.ligado{
+    background-color: #32B72F;
 }
