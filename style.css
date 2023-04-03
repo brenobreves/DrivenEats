@@ -63,7 +63,6 @@ body{
     height: 230px;
     width: 100%;
     display: flex;
-    overflow-x: hidden;
     flex-wrap: nowrap;
     padding-top: 5px;
     padding-left: 19px;
@@ -103,7 +102,7 @@ body{
 }
 .valor{
     display: flex;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -120,7 +119,7 @@ img{
     background: #CBCBCB;
     border-radius: 50px;
     border-style: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
